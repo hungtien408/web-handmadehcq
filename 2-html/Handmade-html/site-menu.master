@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-menu.master.cs" Inherits="site_menu" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="menu" runat="Server">
+    <div class="container">
+        <div id="menu">
+            <div class="panel-icon">
+                <a href="#"><span class="fa fa-reorder"></span>DANH MỤC SẢN PHẨM</a>
+            </div>
+            <ul>
+                <li><a href="#">Quà Tặng Độc Đáo</a>
+                    <ul class="sub-menu">
+                        <li><a href="san-pham.aspx">Thú bông</a></li>
+                        <li><a href="#">Hạt giống - Cây trồng</a></li>
+                        <li><a href="#">Móc khóa</a></li>
+                        <li><a href="#">Khung hình</a></li>
+                        <li><a href="#">Hộp phát sáng</a></li>
+                        <li><a href="#">Xem tất cả</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Trang Sức</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Hạt giống - Cây trồng</a></li>
+                        <li><a href="#">Móc khóa</a></li>
+                        <li><a href="#">Khung hình</a></li>
+                        <li><a href="#">Hộp phát sáng</a></li>
+                        <li><a href="#">Xem tất cả</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Phụ Kiện Party</a></li>
+                <li><a href="#">Trang Trí Nhà Cửa</a></li>
+                <li><a href="#">Vật Dụng Tiện Ích</a></li>
+                <li><a href="#">Sản Phẩm Mới</a></li>
+            </ul>
+        </div>
+        <div class="menu-sub">
+            <ul>
+                <li><a href="san-pham-moi.aspx">Sản phẩm mới</a></li>
+                <li><a href="khuyen-mai.aspx">Khuyến mãi</a></li>
+                <li><a href="dich-vu-goi-qua.aspx">Dịch vụ gói quà</a></li>
+                <li><a href="lien-he.aspx">Hệ thống cửa hàng</a></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="banner" runat="Server">
+   <asp:ContentPlaceHolder ID="banner" runat="server">
+   </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="maincontent" runat="Server">
+   <asp:ContentPlaceHolder ID="maincontent" runat="server">
+   </asp:ContentPlaceHolder>
+</asp:Content>
+
